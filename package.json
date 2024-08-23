@@ -1,0 +1,29 @@
+{
+  "private": true,
+  "name": "@tonic-ui/root",
+  "scripts": {
+    "dev": "turbo dev",
+    "build": "turbo build --continue",
+    "preview": "turbo preview",
+    "lint": "turbo lint --continue",
+    "lint:fix": "turbo lint:fix --continue",
+    "clean": "turbo clean --continue && rimraf node_modules/.cache/ .turbo/ **/.turbo/",
+    "check-updates": "npm-check-updates -ws --root",
+    "do-upgrades": "npm-check-updates -ws --root --upgrade"
+  },
+  "devDependencies": {
+    "npm-check-updates": "^17.1.0",
+    "rimraf": "^6.0.1",
+    "turbo": "^2.0.14"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "packageManager": "pnpm@9.8.0",
+  "pnpm": {
+    "overrides": {
+      "react-native": "0.74.5",
+      "react-native-reanimated": "^3.15.0"
+    }
+  }
+}

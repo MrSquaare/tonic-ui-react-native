@@ -1,0 +1,6 @@
+packages:
+  - "tonic-ui"
+  - "docs"
+  - "storybook-native"
+  - "storybook-web"
+  - "web"

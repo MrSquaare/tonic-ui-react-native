@@ -1,0 +1,44 @@
+{
+  "private": true,
+  "name": "@tonic-ui/storybook-web",
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "storybook dev -p 6006",
+    "prebuild": "rimraf storybook-static/",
+    "build": "storybook build",
+    "preview": "vite preview --outDir storybook-static/",
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix .",
+    "clean": "rimraf .tamagui/ storybook-static/ node_modules/.cache/"
+  },
+  "dependencies": {
+    "@mrsquaare/tonic-ui": "workspace:*",
+    "@tamagui/lucide-icons": "^1.108.4",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-native": "0.74.5",
+    "react-native-svg": "^15.5.0"
+  },
+  "devDependencies": {
+    "@storybook/addon-essentials": "^8.2.9",
+    "@storybook/addon-interactions": "^8.2.9",
+    "@storybook/addon-links": "^8.2.9",
+    "@storybook/react": "^8.2.9",
+    "@storybook/react-vite": "^8.2.9",
+    "@storybook/test": "^8.2.9",
+    "@tamagui/vite-plugin": "^1.108.4",
+    "@types/react": "~18.2.79",
+    "@types/react-dom": "~18.2.25",
+    "@typescript-eslint/eslint-plugin": "^8.2.0",
+    "@typescript-eslint/parser": "^8.2.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "eslint": "^8.57.0",
+    "eslint-plugin-react-hooks": "^4.6.2",
+    "eslint-plugin-react-refresh": "^0.4.11",
+    "eslint-plugin-storybook": "^0.8.0",
+    "storybook": "^8.2.9",
+    "typescript": "^5.5.4",
+    "vite": "^5.4.2"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "folders": [
+    {
+      "name": "root",
+      "path": "."
+    },
+    {
+      "name": "tonic-ui",
+      "path": "./tonic-ui"
+    },
+    {
+      "name": "storybook-native",
+      "path": "./storybook-native"
+    },
+    {
+      "name": "storybook-web",
+      "path": "./storybook-web"
+    },
+    {
+      "name": "docs",
+      "path": "./docs"
+    },
+  ]
+}
